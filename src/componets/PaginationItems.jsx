@@ -22,7 +22,7 @@ const handleSelect = (eventKey) => {setCurrentPage(eventKey)}
                     activePage={currentPage}
                     onSelect={handleSelect}
                     maxButtons={6}
-            />
+                />
             }   
         </div>
     )
