@@ -153,8 +153,9 @@ const NotificationsWindow = () => {
   );
 
   const toggleShowWidget = () => {
+    setFilterItems('all');
     setSearchItems('');
-    return setOpenWidget(!openWidget);
+    setOpenWidget(!openWidget);
   };
 
   return (
