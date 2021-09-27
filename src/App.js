@@ -5,7 +5,7 @@ const App = () => {
     <div>
       <NotificationsWindow />
     </div>
-  )
+  );
 };
 
 export default App;

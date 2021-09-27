@@ -33,7 +33,7 @@ const NotificationsWindow = () => {
       link: linkItem,
       done: false,
       notificationName: title,
-      notificationDescription: descriptionText,
+      notificationDescription: descriptionText
     };
 
     if (title.trim().length > 0 && descriptionText.trim().length > 0) {
@@ -106,9 +106,10 @@ const NotificationsWindow = () => {
   //Widget window
   const speaker = (
     <Popover
-      title='Notifications widget'
+      title="Notifications widget"
       visible
-      style={{ width: 500, height: 800 }}>
+      style={{ width: 500, height: 800 }}
+    >
       <AddNotification
         title={title}
         setTtitle={setTtitle}
@@ -160,18 +161,21 @@ const NotificationsWindow = () => {
 
   return (
     <div
-      style={{ display: 'flex', justifyContent: 'center', marginTop: '5em' }}>
+      style={{ display: 'flex', justifyContent: 'center', marginTop: '5em' }}
+    >
       <Whisper
         preventOverflow
-        trigger='click'
+        trigger="click"
         container={''}
         speaker={speaker}
-        placement='bottom'>
+        placement="bottom"
+      >
         <Button
           color={openWidget ? 'green' : 'orange'}
           onClick={toggleShowWidget}
-          style={{ width: '14em', height: '5em' }}>
-          <Icon icon={openWidget ? 'camera-retro' : 'ban'} size='2x' />
+          style={{ width: '14em', height: '5em' }}
+        >
+          <Icon icon={openWidget ? 'camera-retro' : 'ban'} size="2x" />
           {openWidget ? <h5>Open widget</h5> : <h5>Close widget</h5>}
         </Button>
       </Whisper>
