@@ -12,4 +12,6 @@ React.js, React Suite UI
 ### Live preview
 https://notifications-app.netlify.app/
 
-<img width="550" alt="nf2" src="https://user-images.githubusercontent.com/56683358/135343159-bba42fbc-0186-4eeb-a7c2-822aa5e1f19d.png">
+<img width="266" alt="nf3" src="https://user-images.githubusercontent.com/56683358/135343484-b23a733b-46d9-43ea-86f8-6ab53d9c0ac2.png">
+
+
